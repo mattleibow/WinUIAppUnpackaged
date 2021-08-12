@@ -17,3 +17,8 @@ But, you just need to download and install these:
 Open the solution and first build the `Microsoft.ProjectReunion.Bootstrap` project. This will create a special nuget packge that is just to help AnyCPU work.
 
 Then, run the app.
+
+## Microsoft.ProjectReunion.Bootstrap
+
+The contents of this package i basically the contents of `microsoft.projectreunion.foundation\0.8.0-preview\runtimes`, but using the correct folder structure.
+Once the main package uses this, AnyCPU is here for free.
