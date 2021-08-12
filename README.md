@@ -22,3 +22,13 @@ Then, run the app.
 
 The contents of this package i basically the contents of `microsoft.projectreunion.foundation\0.8.0-preview\runtimes`, but using the correct folder structure.
 Once the main package uses this, AnyCPU is here for free.
+
+Basically instead of:
+
+    runtimes\lib\native\x64\Microsoft.ProjectReunion.Bootstrap.dll
+    
+It is now:
+
+    runtimes\win-x64\native\Microsoft.ProjectReunion.Bootstrap.dll
+
+That is it. And now the `BinPlaceBootstrapDll` target can go away - even the whole `Microsoft.ProjectReunion.Bootstrap.targets` file.
