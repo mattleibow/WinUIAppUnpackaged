@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageOutputPath>..\artifacts</PackageOutputPath>
+		<VersionSuffix>preview.$([System.DateTime]::Now.ToString(yyyyMMddmmss))</VersionSuffix>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="runtimes\**" Pack="True" PackagePath="runtimes\%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+</Project>

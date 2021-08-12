@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicDependenciesTest", "DynamicDependenciesTest\DynamicDependenciesTest.csproj", "{D12269D9-F61B-4301-93C5-D1DEA073B1BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.ProjectReunion.Bootstrap", "Microsoft.ProjectReunion.Bootstrap\Microsoft.ProjectReunion.Bootstrap.csproj", "{BE05A648-8D89-46BF-AAB9-3F2F241AF1C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12269D9-F61B-4301-93C5-D1DEA073B1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12269D9-F61B-4301-93C5-D1DEA073B1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12269D9-F61B-4301-93C5-D1DEA073B1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12269D9-F61B-4301-93C5-D1DEA073B1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE05A648-8D89-46BF-AAB9-3F2F241AF1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE05A648-8D89-46BF-AAB9-3F2F241AF1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE05A648-8D89-46BF-AAB9-3F2F241AF1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE05A648-8D89-46BF-AAB9-3F2F241AF1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860AF72D-443A-456A-A541-4CA99AF5F287}
+	EndGlobalSection
+EndGlobal
